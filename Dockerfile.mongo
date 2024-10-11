@@ -1,0 +1,8 @@
+# Use the official MongoDB image as the base image
+FROM mongo:latest
+
+# Expose the port that MongoDB runs on
+EXPOSE 27017
+
+# Command to run the MongoDB server
+CMD ["mongod"]
